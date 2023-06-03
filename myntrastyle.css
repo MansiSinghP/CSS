@@ -1,0 +1,93 @@
+
+body,html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.Logo img{
+    position: relative;
+    width: 130px;
+    height: 79px;
+    left: 18px;
+    top: 10px;
+   
+
+}
+.Flex{
+    display: flex;
+
+}
+.pos{
+    position: absolute;
+    top: 23px;
+    left: 110px;
+}
+
+form {
+    position: absolute;
+    text-align: center;
+    top: 40px;
+    right: 250px;
+    
+}
+.fsize{
+    width: 450px;
+    height: 35px;
+    font-size: 18px;
+}
+ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+.semibold{
+    font-weight: bold;
+}
+.right{
+    position: absolute;
+    right: 20px;
+    top: 45px;
+    
+}
+.pos2{
+    justify-content: baseline;
+    padding: 0 12px;
+
+}
+.mx2{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.item-center{
+    align-items: center;
+}
+.section1{
+    background-color: #e8e8e8fa;
+    height: 120vh;
+    object-fit: cover;
+}
+/*.container{
+    padding: 0 10vw;
+}*/
+header{
+    font-size: 20px;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    height: 95px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+/*@media (max-width:640px){
+    header{
+    background-color:red;
+}
+}*/
+.homeimg{
+    margin: 12px 0;   
+
+}

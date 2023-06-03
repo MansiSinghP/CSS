@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .navigation{
+        flex-basis: 20%;
+        flex-shrink: 1;
+        flex-grow: 0;
+    }
+    .content{
+        flex-basis: 80%;
+        flex-grow: 1;
+        flex-shrink: 0;
+    }
+    .header{
+        flex-basis: 100%;
+        flex-grow: 1;
+        flex-shrink: 0;
+        color: black;
+        padding: 20px;
+        border-bottom: 2px solid black;
+    }
+</style>
+<body>
+    <div id="container">
+        <div class="header">Header</div>
+        <div class="navigation">NAVIGATION</div>
+        <div class="content"><h1>Full Stack Development</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur inventore odit quo quidem error quos, unde, temporibus molestiae magnam explicabo iste ab illum facilis? Dolorum eos itaque earum doloremque reprehenderit!</p>
+        </div>
+    </div>
+</body>
+</html>

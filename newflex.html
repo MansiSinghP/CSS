@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS201</title>
+</head>
+<style>
+    /**{
+        box-sizing: border-box;
+    }*/
+
+    #container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+   /* #container div{
+        border: 1px solid red;
+    }*/
+    .navigation{
+        flex-basis: 20%;
+        flex-shrink: 1;
+        flex-grow: 0;
+    }
+    .content{
+        flex-basis: 80%;
+        flex-grow: 1;
+        flex-shrink: 0;
+    }
+    .header{
+        flex-basis: 100%;
+        flex-grow: 1;
+        flex-shrink: 0;
+        background-color: aqua;
+        color: blue;
+        border-bottom: 2px solid black;
+        padding: 5px;
+
+    }
+</style>
+<body>
+    <div id="container">
+        <div class="header">Header</div>
+        <div class="navigation">Navigation</div>
+        <div class="content">Content in here
+            <h1>Hello World</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod eaque consequuntur iusto qui repellat ex quaerat nesciunt illo autem atque totam rerum, quisquam accusamus deserunt nobis sunt ullam sequi laudantium?</p>
+        </div>
+    </div>
+    
+</body>
+</html>

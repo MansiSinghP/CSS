@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        height: 300px;
+        width: 300px;
+        border: 10px solid black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        bottom: 0%;
+        background-color: black;
+        animation-name: slideMe;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+    }
+    /*@keyframes slideMe{
+        from{
+        top:0%;
+        left:0%;
+        }
+        to{
+            left: 100%;
+        }
+
+    }*/
+    @keyframes slideMe{
+        0%{
+            left: 0;
+            right: 100;
+            top: 0;
+            bottom: 100;
+        }
+        25%{
+            background-color: blue;
+            left: 100%;
+        }
+        55%{
+            background-color: pink;
+            top: 100%;
+        }
+        75%{
+            background-color: yellow;
+            right: 100%;
+        }
+        100%{
+            background-color: red;
+            bottom: 100%;
+        }
+    }
+</style>
+<body>
+    <div class="box"></div>
+</body>
+</html>

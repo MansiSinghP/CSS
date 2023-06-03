@@ -1,0 +1,20 @@
+body{
+    /*background-image: url("chewy-.jpg");*/
+}
+#box{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid blueviolet;
+    padding: 10px;
+    margin: 50px auto;
+    background-color: rgba(0,0,0,0.5);
+    color: red;
+    text-align: center;
+}
+.floating-image{
+    float: left;
+    margin: 10px;
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+}
